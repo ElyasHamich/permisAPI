@@ -22,9 +22,11 @@ app.get('/img')
 
 app.use(express.static(__dirname + '/img'));
 
-app.use(express.static(__dirname + '/audio'));
+app.use(express.static(__dirname + '/audio/F'));
+app.use(express.static(__dirname + '/audio/N'));
 
 
 
-const port = process.env.PORT || 3000;
+
+const port = process.env.PORT || 80;
 app.listen(port, () => console.log(`listenig on port ${port}`));
