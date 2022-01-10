@@ -54,7 +54,7 @@ let question4 = new Question("Auto", "exam 2","fr", "Enfant de 10 ans mesurant 1
 
 
 
-  let questionNL1 = Question("Auto", "exam 1", "nl", "Op de wielen mogen spijkerbanden worden gemonteerd", "A", "???????", "Het gebruik van spijkerbanden hangt niet af van de weeromstandigheden. Te onthouden: van 1 november tot 31 maart", "Van 1 november tot 31 maart", "Van 1 oktober tot 31 maart", "Waneer de weergesteldheid dit rechtvaardigt")
+  let questionNL1 = Question("Auto", "exam 1", "nl", "Op de wielen mogen spijkerbanden worden gemonteerd", "A", "91700", "Het gebruik van spijkerbanden hangt niet af van de weeromstandigheden. Te onthouden: van 1 november tot 31 maart", "Van 1 november tot 31 maart", "Van 1 oktober tot 31 maart", "Waneer de weergesteldheid dit rechtvaardigt")
 
   let questionNL2 = Question("Auto", "exam 1", "nl", "Dit verkeersbord betekent: verbod de cruis control of kruissnelheidregelaar te gebruike,", "B", "366006", "Dit verkeersteken betekent: Einde van het verbod", "Ja", "Neen")
 
