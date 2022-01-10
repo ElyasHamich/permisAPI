@@ -79,52 +79,55 @@ let question4 = new Question("Auto", "exam 2","fr", "Enfant de 10 ans mesurant 1
 
 
 
-  let questionMT1 = new Question("Moto", "exam 1", "fr", "Pour conduire une moto d'une puissance de 21kW, il faut etre agé d'au moins", "B", "images", "20 ans pour une moto d'une puissance de maximal 35kW et d'un rapport puissance/poids maximal de 0,2kW/kg", "18 ans", "20 ans", "21 ans")
+  let questionMT1 = new Question("Moto", "exam 1", "fr", "Pour conduire une moto d'une puissance de 21kW, il faut etre agé d'au moins", "B", "100024", "20 ans pour une moto d'une puissance de maximal 35kW et d'un rapport puissance/poids maximal de 0,2kW/kg", "18 ans", "20 ans", "21 ans")
 
   let questionMT2 = Question("Moto", "exam 1", "fr", "Ce signal routier limite ma vitesse durant 200 mètres", "B","366010", 
   "La limitation commence dans 200 m",
    "Oui", "Non")
 
-  let questionMT3 = new Question("Moto", "exam 1", "fr", "Accident avec blessé. Je pense d'abord a", "A", "images", "Votre sécurité avant tout", "Ma sécurié", "La sécurité des blessés", "La sécurité de la circulation")
+  let questionMT3 = new Question("Moto", "exam 1", "fr", "Accident avec blessé. Je pense d'abord a", "A", "666103", "Votre sécurité avant tout", "Ma sécurié", "La sécurité des blessés", "La sécurité de la circulation")
 
   
-  let questionMT4 = new Question("Moto", "exam 2", "fr", "Je circule plus vite que le vehicule sur la bande centrale. Je peux le remonter par la droite", "B", "images", "Le trafic est fluide. Remonter par la droite revient a depasser", "Oui", "Non")
+  let questionMT4 = new Question("Moto", "exam 2", "fr", "Je circule plus vite que le vehicule sur la bande centrale. Je peux le remonter par la droite", "B", "666104", "Le trafic est fluide. Remonter par la droite revient a depasser", "Oui", "Non")
 
-  let questionMT5 = new Question("Moto", "exam 2", "fr", "Je peux emrpunter cette voie publique", "B", "images", "C'est une zone piétonne", "Oui", "Non")
+  let questionMT5 = new Question("Moto", "exam 2", "fr", "Je peux emrpunter cette voie publique", "B", "666105", "C'est une zone piétonne", "Oui", "Non")
 
-  let questionMT6 = new Question("Moto", "exam 2", "fr", "Le passager d'un side car", "C", "images", "Casque,bottes, gants, pantalon et vest a manche longue", "Doit porter un casque", "Doit porter des gants", "Doit porter un caque est des gants")
-
-
-  let questionMT7 = new Question("Moto", "exam 3", "fr", "Quel est le role de l'huile moteur", "C", "images", "L'huile élimine également les particule métaliques", "Lubrifier le moteur", "Nettoyer le moteur", "Les deux")
-
-  let questionMT8 = new Question("Moto", "exam 3", "fr", "Je peux depasser le cycliste", "C", "images", "Dans une rue cyclable, le depassement des cyclistes est interdit", "A", "B", "C")
-
-  let questionMT9 = new Question("Moto", "exam 3", "fr", "Pour appeler les secours dans un tunnel, il est préferable d'utiliser", "B", "images", "Pour kes problémes de reseau et pour etre exactement localisé par la chambre de controle", "Un GSM", "Une borne d'appel d'urgance")
-
-  let questionMT10 = new Question("Moto", "exam 3", "fr", "Je désire tourner a gauche dans ce carrefour. Le conducteur venanten sens inverse tourne égelement a gauche", "B", "images", "Toujour croiser par la droite,afin d'effectuer le virage largement, et de ne pas avoir la vue masquée", "Je dois le croiser par la gauche", "Je dois le croiser par la droite", "Je peux choisir, par la droite ou par la gauche")
+  let questionMT6 = new Question("Moto", "exam 2", "fr", "Le passager d'un side car", "C", "222001", "Casque,bottes, gants, pantalon et vest a manche longue", "Doit porter un casque", "Doit porter des gants", "Doit porter un caque est des gants")
 
 
+  let questionMT7 = new Question("Moto", "exam 3", "fr", "Quel est le role de l'huile moteur", "C", "120013", "L'huile élimine également les particule métaliques", "Lubrifier le moteur", "Nettoyer le moteur", "Les deux")
+
+  let questionMT8 = new Question("Moto", "exam 3", "fr", "Je peux depasser le cycliste", "C", "366002", "Dans une rue cyclable, le depassement des cyclistes est interdit", "A", "B", "C")
+
+  let questionMT9 = new Question("Moto", "exam 3", "fr", "Pour appeler les secours dans un tunnel, il est préferable d'utiliser", "B", "322009", "Pour kes problémes de reseau et pour etre exactement localisé par la chambre de controle", "Un GSM", "Une borne d'appel d'urgance")
+
+  let questionMT10 = new Question("Moto", "exam 3", "fr", "Je désire tourner a gauche dans ce carrefour. Le conducteur venanten sens inverse tourne égelement a gauche", "B", "917025", "Toujour croiser par la droite,afin d'effectuer le virage largement, et de ne pas avoir la vue masquée", "Je dois le croiser par la gauche", "Je dois le croiser par la droite", "Je peux choisir, par la droite ou par la gauche")
 
 
-  let questionMTNL1 = new Question("Moto", "exam 1", "nl", "Omte mogen rijden met een motorfiets met een vermogen van 21kW moet men de leeftijd bereikt hebben van", "B", "images", "18 jaar voor een motorfiets met een vermogen van minder dan of gelijk aan 35kW of een vermogen/gewicht verhouding van minder dan of gelijk aan 0,16kW/kg", "18 jaar", "20 jaar", "21 jaar")
+
+
+  let questionMTNL1 = new Question("Moto", "exam 1", "nl", "Om te mogen rijden met een motorfiets met een vermogen van 21kW moet men de leeftijd bereikt hebben van", "B", "100024", "18 jaar voor een motorfiets met een vermogen van minder dan of gelijk aan 35kW of een vermogen/gewicht verhouding van minder dan of gelijk aan 0,16kW/kg", "18 jaar", "20 jaar", "21 jaar")
 
   let questionMTNL2 = new Question("Moto", "exam 1", "nl", "Door dit teken is er snelheidbeperking gedurende 200m", "B", "366010", "binnen 200m", "Ja", "Neen")
 
-  let questionMTNL3 = new Question("Moto", "exam 1", "nl", "Ongeval met gewonden. Eerste bezorgheid voor", "A", "images", "Uw veiligheid ip de eerste plaats", "Mijn veiligheid", "De veiligheid van de gewonde", "De veiligheid van het verkeer")
+  let questionMTNL3 = new Question("Moto", "exam 1", "nl", "Ongeval met gewonden. Eerste bezorgheid voor", "A", "666103", "Uw veiligheid ip de eerste plaats", "Mijn veiligheid", "De veiligheid van de gewonde", "De veiligheid van het verkeer")
 
 
-  let questionMTNL4 = new Question("Moto", "exam 2", "nl", "Ik rijd sneller dan het voertijg in de middelste rijstrook. Ik mag rechts voorbij rijden", "B", "images", "Het verkeer gaat vlot. Rechts voorbij rijden zou neerkomen op een inhaalbewegin", "Ja", "Neen")
+  let questionMTNL4 = new Question("Moto", "exam 2", "nl", "Ik rijd sneller dan het voertijg in de middelste rijstrook. Ik mag rechts voorbij rijden", "B", "666104", "Het verkeer gaat vlot. Rechts voorbij rijden zou neerkomen op een inhaalbewegin", "Ja", "Neen")
 
-  let questionMTNL5 = new Question("Moto", "exam 2", "nl", "Ik mag deze openbare weg oprijden", "B", "images", "Dit es een voetgangerzone", "Ja", "Neen")
+  let questionMTNL5 = new Question("Moto", "exam 2", "nl", "Ik mag deze openbare weg oprijden", "B", "666105", "Dit es een voetgangerzone", "Ja", "Neen")
 
-  let questionMTNL6 = new Question("Moto", "exam 2", "nl", "De passagier van een side-car", "C", "images", "Helm, bottines, handschoenen, lange broek en een jas met lange moewen zijn verplicht", "Moet een helm dragen", "Moet handschoenen dragen", "Moet een helm en handschoenen dragen")
+  let questionMTNL6 = new Question("Moto", "exam 2", "nl", "De passagier van een side-car", "C", "222001", "Helm, bottines, handschoenen, lange broek en een jas met lange moewen zijn verplicht", "Moet een helm dragen", "Moet handschoenen dragen", "Moet een helm en handschoenen dragen")
 
 
-  let questionMTNL7 = new Question("Moto", "exam 3", "nl", "Waarvoor dient motorolie", "C", "images", "De olie dient ook voor het eliminiren van zeer kleine metalen deeltjes", "Als smering van de motor", "Als reining van de motor", "Voor beide")
+  let questionMTNL7 = new Question("Moto", "exam 3", "nl", "Waarvoor dient motorolie", "C", "120013", "De olie dient ook voor het eliminiren van zeer kleine metalen deeltjes", "Als smering van de motor", "Als reining van de motor", "Voor beide")
 
-  let questionMTNL8 = new Question("Moto", "exam 3", "nl", "Ik mag de fietser inhalen", "C", "images", "In een fietsstraat is het verboden fietrsers in te halen", "Ja", "Ja, maar aan maximaal 30 km/u", "Neen")
+  let questionMTNL8 = new Question("Moto", "exam 3", "nl", "Ik mag de fietser inhalen", "C", "366002", "In een fietsstraat is het verboden fietrsers in te halen", "Ja", "Ja, maar aan maximaal 30 km/u", "Neen")
 
-  let questionMTNL9 = new Question("Moto", "exam 3", "nl", "Om in een tunnel hulp te vragen, is het verkiest dit te doen", "B", "images", "Omwille van eventuele netwerk problemen en voor precieze lokalisatie", "Via GSM", "Via een praatpaalmet noodtelefoon")
+  let questionMTNL9 = new Question("Moto", "exam 3", "nl", "Om in een tunnel hulp te vragen, is het verkiest dit te doen", "B", "322009", "Omwille van eventuele netwerk problemen en voor precieze lokalisatie", "Via GSM", "Via een praatpaalmet noodtelefoon")
+
+  let questionMTNL10 = new Question("Moto", "exam 3", "nl", "Op dit kruispunt wil ik naar links afslaan. De tegenligger wil eveneens naar links afslaan", "B", "917025", "Het kruisen geschiedt steeds rechts, dit om de beweging zo ruim mogelijk uit voeren en het zicht niet te belemmeren", "Ik moet hem links kruisen", "Ik moet hem rechts kruisen", "Ik heb de keuze: rechts of links")
+
 
 
 module.exports = {
