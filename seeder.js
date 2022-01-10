@@ -81,7 +81,7 @@ let question4 = new Question("Auto", "exam 2","fr", "Enfant de 10 ans mesurant 1
 
   let questionMT1 = new Question("Moto", "exam 1", "fr", "Pour conduire une moto d'une puissance de 21kW, il faut etre agé d'au moins", "B", "100024", "20 ans pour une moto d'une puissance de maximal 35kW et d'un rapport puissance/poids maximal de 0,2kW/kg", "18 ans", "20 ans", "21 ans")
 
-  let questionMT2 = Question("Moto", "exam 1", "fr", "Ce signal routier limite ma vitesse durant 200 mètres", "B","366010", 
+  let questionMT2 = new Question("Moto", "exam 1", "fr", "Ce signal routier limite ma vitesse durant 200 mètres", "B","366010", 
   "La limitation commence dans 200 m",
    "Oui", "Non")
 
