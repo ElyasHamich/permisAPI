@@ -12,11 +12,6 @@ class Question {
     }
 }
 
-let questionMT = Question("Moto", "exam 1", "fr", "question", "answer", "images", "comment", "q1", "q2", "q3")
-let questionMTNL = Question("Moto", "exam 1", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-
-
 
 
 let question1 = new Question("Auto","exam 1", "fr", "Pour freiner, je pousse normalement", "A","511142",
@@ -28,10 +23,10 @@ let question2 = new Question("Auto", "exam 1","fr", "Ce signal routier signifie 
 let question3 = new Question("Auto", "exam 1","fr", "L'Utilisation de l'airconditionné augmente la consommation de carburant","A", "366007",
  "Tout ce qui consomme de l'électricité augmante la consommation de carburant", "oui", "non" );
 
-let question4 = new Question("Auto", "exam 1","fr", "Enfant de 10 ans mesurant 1,45m. Comment faut-il le transporter ?", "C","366011",
- "A partir de 1,35m, un système de retenue n'est plus obligatoire.", "A", "B", "A et B" );
+let question4 = new Question("Auto", "exam 2","fr", "Enfant de 10 ans mesurant 1,45m. Comment faut-il le transporter ?", "C","366011",
+ "A partir de 1,35m, un système de retenue n'est plus obligatoire.", "A", "B", "A et B");
 
- let question5 = new Question("Auto", "exam 1","fr", "La circulation est fortement ralentie. une bande de circulation prend fin. Le principe de la tirette doit s'appliquer ", "A","366008",
+ let question5 = new Question("Auto", "exam 2","fr", "La circulation est fortement ralentie. une bande de circulation prend fin. Le principe de la tirette doit s'appliquer ", "A","366008",
  "Afin de profiter des deux bandes le plus longtemps possible", "Juste devant le rétrécissement", "Le plus tôt possible" );
 
 
@@ -39,149 +34,47 @@ let question4 = new Question("Auto", "exam 1","fr", "Enfant de 10 ans mesurant 1
  let question6 = new Question("Auto", "exam 2","fr", "Incendie dans un tunnel", "A","366009", 
  "Laissez la clef sur le contact pour les services de secours et dirigez-vous vers l'issue de secours du côté opposé à l'incendie", "Je me dirige vers l'issue de secours", "Je ferme la voiture à clef et me dirige vers l'issue de secours", "J'attends les secours dans le véhicule en fermant les fenêtres" );
 
- let question7 = new Question("Auto", "exam 2","fr", "Ce signal routier limite ma vitesse durant 200 mètres", "B","366010", 
+
+ let question7 = new Question("Auto", "exam 3","fr", "Ce signal routier limite ma vitesse durant 200 mètres", "B","366010", 
  "La limitation commence dans 200 m",
   "Oui", "Non");
 
- let question8 = new Question("Auto", "exam 2","fr", "Dans quel sens faut-il serrer les boulons d'une roue", "A","666101", 
+ let question8 = new Question("Auto", "exam 3","fr", "Dans quel sens faut-il serrer les boulons d'une roue", "A","666101", 
  "Dans le sens des aiguilles d'une montre",
   "A", "B");
 
- let question9 = new Question("Auto", "exam 2","fr", "Moteur Diesel. A quel régime moteur convient-il de changer de rapport", "B","450042", 
+ let question9 = new Question("Auto", "exam 3","fr", "Moteur Diesel. A quel régime moteur convient-il de changer de rapport", "B","450042", 
  "2000 tours/minute avec un moteur Diesel, 2500 tours/minute avec un moteur essence",
   "1000", "2000", "3500" );
 
- let question10 = new Question("Auto", "exam 2","fr", "L'ESP est un système", "B","917000", 
+ let question10 = new Question("Auto", "exam 3","fr", "L'ESP est un système", "B","917000", 
  "ESP système antidérapant destiné à améliorer le contrôle de trajectoire. ABS système qui évite le blocage des roues au freinage",
   "Qui évite le blocage des roues au freinage", "D'antidérapage" );
 
 
 
 
- let question11 = new Question("Auto", "exam 3","fr", "J'achète une nouvelle voiture. Sa consommation est de 6 litres pour 100 km. Cette consommation est", "B","511065", 
- "Moyenne",
-  "Ecologique", "Moyenne", "Pas écologique" );
+  let questionNL1 = Question("Auto", "exam 1", "nl", "Op de wielen mogen spijkerbanden worden gemonteerd", "A", "???????", "Het gebruik van spijkerbanden hangt niet af van de weeromstandigheden. Te onthouden: van 1 november tot 31 maart", "Van 1 november tot 31 maart", "Van 1 oktober tot 31 maart", "Waneer de weergesteldheid dit rechtvaardigt")
 
- let question12 = new Question("Auto", "exam 3","fr", "Accident avec blessé. Je pense d'abord à", "A","666103", 
- "Votre sécurité avant tout",
-  "Ma sécurité", "La sécurité des blessés", "La sécurité de la circulation" );
+  let questionNL2 = Question("Auto", "exam 1", "nl", "Dit verkeersbord betekent: verbod de cruis control of kruissnelheidregelaar te gebruike,", "B", "366006", "Dit verkeersteken betekent: Einde van het verbod", "Ja", "Neen")
 
- let question13 = new Question("Auto", "exam 3","fr", "Forte pluie. Je peux utiliser les feux de brouillard avant lorsque je suis un véhicule à moins de 50 mètres", "A","100035", 
- "Seuls les feux de route sont interdits lorsque vous suivez un autre véhicule à moins de 50 mètres",
-  "Oui", "Non" );
-
- let question14 = new Question("Auto", "exam 3","fr", "Je circule plus vite que le véhicule sur la bande centrale. Je peux le remonter par la droite", "B","666104", 
- "Le trafic est fluide. Remonter ce véhicule par la droite revient à dépasser",
-  "Oui", "Non");
-
- let question15 = new Question("Auto", "exam 3","fr", "Je peux emprunter cette voie publique", "C","666105", 
- "C'est une zone piétonne",
-  "Oui", "Oui, pour y faire une livraison", "Non" );
+  let questionNL3 = Question("Auto", "exam 1", "nl", "Het functioneer van de airco verhoogt het brandstofgebruik", "A", "366007", "Al wat elektriciteit verbruikt vereist brandstof", "Ja", "Nee")
 
 
+  let questionNL4 = Question("Auto", "exam 2", "nl", "Kind van jaar, 1,45 m groot. Hoe dient dit te te worden vervoerd ?", "C", "366011", "Vanaf 1,35 m is geen kinderbeveiligingsysteem meer vereist", "A", "B", "A of B")
 
- let question16 = new Question("Auto", "exam 4","fr", "Suite à un accident de roulage, puis-je encore apporter des modifications à la face avant du constat une fois rentré à la maison", "B","643002", 
- "Vous pouvez cependant ajouter une explication en annexe ou sur la face arrière.",
-  "Oui", "Non");
- 
- let question17 = new Question("Auto", "exam 4","fr", "L'utilisation d'un kit main libre en conduisant est", "B","222002", 
- "Car vous serez moins attentif à la circulation.",
-  "Autorisé", "Autorisé mais dangereux", "Interdit");
+  let questionNL5 = Question("Auto", "exam 2", "nl", "Sterk vertraagd verkeer, Einde van een rijstrook. Ritsen verplicht", "A", "366008", "Om zo lang mogelijk voordeel te behouden uit de twee rijstroken", "Juist voor devernauwing", "Zo snel mogelijk")
 
- let question18 = new Question("Auto", "exam 4","fr", "Quel est le rôle de l'huile moteur", "C","120013", 
- "L'huile élimine également les particules métalliques",
-  "Lubrifier le moteur", "Nettoyer le moteur", "Les deux" );
-
- let question19 = new Question("Auto", "exam 4","fr", "Je peux dépasser le cycliste", "C","366002", 
- "Dans une rue cyclable, le dépassement des cyclistes est interdit",
-  "Oui", "Oui, mais à 30 Km/h maximum", "Non" );
-
- let question20 = new Question("Auto", "exam 4","fr", "Je désire tourner à gauche dans ce carrefour. Le conducteur venant en sens inverse tourne également à gauche.", "B","917025", 
- "Toujours croiser par la droite, afin d'effectuer le virage largement, et de ne pas avoir la vue masquée.",
-  "Je dois le croiser par la gauche", "Je dois le croiser par la droite", "Je peux choisir, par la droite ou par la gauche" );
+  let questionNL6 = Question("Auto", "exam 2", "nl", "Brand in een tunnel", "A", "366009", "Ten behoeve van de hulpdienst laat ik de sleutel op het contact en begeef me, in tegenovergestelde richting van de brand,naar de nooduitgang", "Ik begeef mij naar de nooduitgang", "Ik sluit de auto af en begeef me naar de nooduitgang", "In de auto met gesloten ramen wacht ik op de hulpdiensten")
 
 
+  let questionNL7 = Question("Auto", "exam 3", "nl", "Door dit teken is er snelheidbeperking gedurende 200m", "B", "366010", "binnen 200m", "Ja", "Neen")
 
- let question21 = new Question("Auto", "exam 5","fr", "Pour appeler les secours dans un tunnel, il est préférable d'utiliser", "B","322009", 
- "Pour les problèmes de réseau et pour être exactement localisé par la chambre de contrôle.",
-  "Un GSM", "Une borne d'appel d'urgence" );
+  let questionNL8 = Question("Auto", "exam 3", "nl", "In welke richting dienen de wielbouten te worden aangedraaid", "A", "666101", "met de wijzersvan de klok mee", "A", "B")
 
- let question22 = new Question("Auto", "exam 5","fr", "Le tram redémarre. En l'absence de conducteurs venant en sens inverse, puis-je le dépasser par la gauche ?", "A","917022", 
- "Le dépassement par la gauche est autorisé puisqu'il y a un obstacle fixe à droite (des véhicules en stationnement)",
-  "Oui", "Non");
+  let questionNL9 = Question("Auto", "exam 3", "nl", "Dieselmotor, Aan welke motorregime moet de gangwissel geschieden", "B", "450042", "Bij 2000 omwentelingen/minuut voor een dieselmotor. 2500 voor een benzinmotor", "1000 omwentelingen/minuut", "2000 omwentelingen/minuut", "3500 omwentelingen/minuut")
 
- let question23 = new Question("Auto", "exam 5","fr", "Sur cette chaussée à sens unique, je peux rouler au milieu", "C","917017", 
- "Pour que le choix de la bande soit possible, il faut que la chaussée soit divisée en bandes, pour que le choix de la file soit possible, il faut qu'il y ait densité. Ce  n'est pas le cas, vous devez donc rester à droite, même si personne ne vous suit.",
-  "Oui", "Oui, si personne ne veut me dépasser ", "Non" );
-
- let question24 = new Question("Auto", "exam 5","fr", "Le véhicule débouchant à ma droite vire à droite. J'ai la priorité.", "B","917020", 
- "Sans signal ni feux ni agent, le principe de la priorité de droite est d'application. Peu importe la direction que prendra la voiture dans le carrefour, le changement de direction n'influence pas les règles de priorité.",
-  "Oui", "Non");
-
- let question25 = new Question("Auto", "exam 5","fr", "En plus d'interdire l'accès aux voitures, ce panneau interdit aussi l'accès aux conducteurs de", "C","917012", 
- "Définition du signal: Accès interdit aux conducteurs de véhicules à moteur à plus de deux roues, et de motocyclettes avec side-car. Retenez: interdit aux 'véhicules larges à moteur'.",
-  "Tous les véhicules à moteur", "Motocyclettes et cyclomoteurs", "Camions et autocars" );
-
-
-
-  let questionNL1 = Question("Auto", "exam 1", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL2 = Question("Auto", "exam 1", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL3 = Question("Auto", "exam 1", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL4 = Question("Auto", "exam 1", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL5 = Question("Auto", "exam 1", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-
-  let questionNL6 = Question("Auto", "exam 2", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL7 = Question("Auto", "exam 2", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL8 = Question("Auto", "exam 2", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL9 = Question("Auto", "exam 2", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL10 = Question("Auto", "exam 2", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-
-
-  let questionNL11 = Question("Auto", "exam 3", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL12 = Question("Auto", "exam 3", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL13 = Question("Auto", "exam 3", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL14 = Question("Auto", "exam 3", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL15 = Question("Auto", "exam 3", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-
-
-  let questionNL16 = Question("Auto", "exam 4", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL17 = Question("Auto", "exam 4", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL18 = Question("Auto", "exam 4", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL19 = Question("Auto", "exam 4", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL20 = Question("Auto", "exam 4", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-
-
-  let questionNL21 = Question("Auto", "exam 5", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL22 = Question("Auto", "exam 5", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL23 = Question("Auto", "exam 5", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL24 = Question("Auto", "exam 5", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-  let questionNL25 = Question("Auto", "exam 5", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
-
-
+  let questionNL10 = Question("Auto", "exam 3", "nl", "De ESP is een systeem", "B", "917000", "comment", "Dat , bij het remmen, belet datde wielen geblokkeerd geraken", "Tegen slipgevaar")
 
 
 
