@@ -54,27 +54,28 @@ let question4 = new Question("Auto", "exam 2","fr", "Enfant de 10 ans mesurant 1
 
 
 
-  let questionNL1 = Question("Auto", "exam 1", "nl", "Op de wielen mogen spijkerbanden worden gemonteerd", "A", "91700", "Het gebruik van spijkerbanden hangt niet af van de weeromstandigheden. Te onthouden: van 1 november tot 31 maart", "Van 1 november tot 31 maart", "Van 1 oktober tot 31 maart", "Waneer de weergesteldheid dit rechtvaardigt")
+  let questionNL1 = new Question("Auto", "exam 1", "nl", "Op de wielen mogen spijkerbanden worden gemonteerd", "A", "91700",
+   "Het gebruik van spijkerbanden hangt niet af van de weeromstandigheden. Te onthouden: van 1 november tot 31 maart", "Van 1 november tot 31 maart", "Van 1 oktober tot 31 maart", "Waneer de weergesteldheid dit rechtvaardigt")
 
-  let questionNL2 = Question("Auto", "exam 1", "nl", "Dit verkeersbord betekent: verbod de cruis control of kruissnelheidregelaar te gebruike,", "B", "366006", "Dit verkeersteken betekent: Einde van het verbod", "Ja", "Neen")
+  let questionNL2 = new Question("Auto", "exam 1", "nl", "Dit verkeersbord betekent: verbod de cruis control of kruissnelheidregelaar te gebruike,", "B", "366006", "Dit verkeersteken betekent: Einde van het verbod", "Ja", "Neen")
 
-  let questionNL3 = Question("Auto", "exam 1", "nl", "Het functioneer van de airco verhoogt het brandstofgebruik", "A", "366007", "Al wat elektriciteit verbruikt vereist brandstof", "Ja", "Nee")
-
-
-  let questionNL4 = Question("Auto", "exam 2", "nl", "Kind van jaar, 1,45 m groot. Hoe dient dit te te worden vervoerd ?", "C", "366011", "Vanaf 1,35 m is geen kinderbeveiligingsysteem meer vereist", "A", "B", "A of B")
-
-  let questionNL5 = Question("Auto", "exam 2", "nl", "Sterk vertraagd verkeer, Einde van een rijstrook. Ritsen verplicht", "A", "366008", "Om zo lang mogelijk voordeel te behouden uit de twee rijstroken", "Juist voor devernauwing", "Zo snel mogelijk")
-
-  let questionNL6 = Question("Auto", "exam 2", "nl", "Brand in een tunnel", "A", "366009", "Ten behoeve van de hulpdienst laat ik de sleutel op het contact en begeef me, in tegenovergestelde richting van de brand,naar de nooduitgang", "Ik begeef mij naar de nooduitgang", "Ik sluit de auto af en begeef me naar de nooduitgang", "In de auto met gesloten ramen wacht ik op de hulpdiensten")
+  let questionNL3 = new Question("Auto", "exam 1", "nl", "Het functioneer van de airco verhoogt het brandstofgebruik", "A", "366007", "Al wat elektriciteit verbruikt vereist brandstof", "Ja", "Nee")
 
 
-  let questionNL7 = Question("Auto", "exam 3", "nl", "Door dit teken is er snelheidbeperking gedurende 200m", "B", "366010", "binnen 200m", "Ja", "Neen")
+  let questionNL4 = new Question("Auto", "exam 2", "nl", "Kind van jaar, 1,45 m groot. Hoe dient dit te te worden vervoerd ?", "C", "366011", "Vanaf 1,35 m is geen kinderbeveiligingsysteem meer vereist", "A", "B", "A of B")
 
-  let questionNL8 = Question("Auto", "exam 3", "nl", "In welke richting dienen de wielbouten te worden aangedraaid", "A", "666101", "met de wijzersvan de klok mee", "A", "B")
+  let questionNL5 = new Question("Auto", "exam 2", "nl", "Sterk vertraagd verkeer, Einde van een rijstrook. Ritsen verplicht", "A", "366008", "Om zo lang mogelijk voordeel te behouden uit de twee rijstroken", "Juist voor devernauwing", "Zo snel mogelijk")
 
-  let questionNL9 = Question("Auto", "exam 3", "nl", "Dieselmotor, Aan welke motorregime moet de gangwissel geschieden", "B", "450042", "Bij 2000 omwentelingen/minuut voor een dieselmotor. 2500 voor een benzinmotor", "1000 omwentelingen/minuut", "2000 omwentelingen/minuut", "3500 omwentelingen/minuut")
+  let questionNL6 = new Question("Auto", "exam 2", "nl", "Brand in een tunnel", "A", "366009", "Ten behoeve van de hulpdienst laat ik de sleutel op het contact en begeef me, in tegenovergestelde richting van de brand,naar de nooduitgang", "Ik begeef mij naar de nooduitgang", "Ik sluit de auto af en begeef me naar de nooduitgang", "In de auto met gesloten ramen wacht ik op de hulpdiensten")
 
-  let questionNL10 = Question("Auto", "exam 3", "nl", "De ESP is een systeem", "B", "917000", "comment", "Dat , bij het remmen, belet datde wielen geblokkeerd geraken", "Tegen slipgevaar")
+
+  let questionNL7 = new Question("Auto", "exam 3", "nl", "Door dit teken is er snelheidbeperking gedurende 200m", "B", "366010", "binnen 200m", "Ja", "Neen")
+
+  let questionNL8 = new Question("Auto", "exam 3", "nl", "In welke richting dienen de wielbouten te worden aangedraaid", "A", "666101", "met de wijzersvan de klok mee", "A", "B")
+
+  let questionNL9 = new Question("Auto", "exam 3", "nl", "Dieselmotor, Aan welke motorregime moet de gangwissel geschieden", "B", "450042", "Bij 2000 omwentelingen/minuut voor een dieselmotor. 2500 voor een benzinmotor", "1000 omwentelingen/minuut", "2000 omwentelingen/minuut", "3500 omwentelingen/minuut")
+
+  let questionNL10 = new Question("Auto", "exam 3", "nl", "De ESP is een systeem", "B", "917000", "comment", "Dat , bij het remmen, belet datde wielen geblokkeerd geraken", "Tegen slipgevaar")
 
 
 
@@ -123,7 +124,7 @@ let question4 = new Question("Auto", "exam 2","fr", "Enfant de 10 ans mesurant 1
 
 module.exports = {
 
-    start: [question1,question2,question3,question4,question5,question6,question7,question8,question9,question10,question11,question12,question13,question14,question15,question16,question17,question18,question19,question20,question21,question22,question23,question24,question25],
+    start: [question1,question2,question3,question4,question5,question6,question7,question8,question9,question10,questionNL1,questionNL2,questionNL3,questionNL4,questionNL5,questionNL6,questionNL7,questionNL8,questionNL9,questionNL10,],
     
   };
 
