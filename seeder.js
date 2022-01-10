@@ -12,6 +12,9 @@ class Question {
     }
 }
 
+let questionMT = Question("Moto", "exam 1", "fr", "question", "answer", "images", "comment", "q1", "q2", "q3")
+let questionMTNL = Question("Moto", "exam 1", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
 
 
 
@@ -121,15 +124,114 @@ let question4 = new Question("Auto", "exam 1","fr", "Enfant de 10 ans mesurant 1
 
 
 
+  let questionNL1 = Question("Auto", "exam 1", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL2 = Question("Auto", "exam 1", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL3 = Question("Auto", "exam 1", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL4 = Question("Auto", "exam 1", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL5 = Question("Auto", "exam 1", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+
+  let questionNL6 = Question("Auto", "exam 2", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL7 = Question("Auto", "exam 2", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL8 = Question("Auto", "exam 2", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL9 = Question("Auto", "exam 2", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL10 = Question("Auto", "exam 2", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+
+
+  let questionNL11 = Question("Auto", "exam 3", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL12 = Question("Auto", "exam 3", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL13 = Question("Auto", "exam 3", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL14 = Question("Auto", "exam 3", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL15 = Question("Auto", "exam 3", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+
+
+  let questionNL16 = Question("Auto", "exam 4", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL17 = Question("Auto", "exam 4", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL18 = Question("Auto", "exam 4", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL19 = Question("Auto", "exam 4", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL20 = Question("Auto", "exam 4", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+
+
+  let questionNL21 = Question("Auto", "exam 5", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL22 = Question("Auto", "exam 5", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL23 = Question("Auto", "exam 5", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL24 = Question("Auto", "exam 5", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionNL25 = Question("Auto", "exam 5", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+
+
+
+
+  let questionMT1 = Question("Moto", "exam 1", "fr", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionMT2 = Question("Moto", "exam 1", "fr", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionMT3 = Question("Moto", "exam 1", "fr", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  
+  let questionMT4 = Question("Moto", "exam 2", "fr", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionMT5 = Question("Moto", "exam 2", "fr", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionMT6 = Question("Moto", "exam 2", "fr", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+
+  let questionMT7 = Question("Moto", "exam 3", "fr", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionMT8 = Question("Moto", "exam 3", "fr", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionMT9 = Question("Moto", "exam 3", "fr", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+
+
+  let questionMTNL1 = Question("Moto", "exam 1", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionMTNL2 = Question("Moto", "exam 1", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionMTNL3 = Question("Moto", "exam 1", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+
+  let questionMTNL4 = Question("Moto", "exam 2", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionMTNL5 = Question("Moto", "exam 2", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionMTNL6 = Question("Moto", "exam 2", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+
+  let questionMTNL7 = Question("Moto", "exam 3", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionMTNL8 = Question("Moto", "exam 3", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+  let questionMTNL9 = Question("Moto", "exam 3", "nl", "question", "answer", "images", "comment", "q1", "q2", "q3")
+
+
 module.exports = {
 
-    start: [question1,question2,question3,question4,question5,question6,question7,question8,question9,question10],
-    exam3:[question11,question12,question13,question14,question15],
-    exam4:[question16,question17,question18,question19,question20],
-    exam5:[question21,question22,question23,question24,question25]
-
+    start: [question1,question2,question3,question4,question5,question6,question7,question8,question9,question10,question11,question12,question13,question14,question15,question16,question17,question18,question19,question20,question21,question22,question23,question24,question25],
     
-  
   };
 
 
